@@ -23,8 +23,6 @@ def read_metadata(h5):
 	hdf5_file.close()
 	return metadata
 
-# def create_csv(metadata):
-
 def create_summary_csv(rootdir,csv_file):
 	first_run = True
 	ext = "h5"
@@ -43,9 +41,3 @@ def create_summary_csv(rootdir,csv_file):
 	df.reset_index(drop=True,inplace=True)
 	df.to_csv(csv_file)
 	return df
-
-file = "C:\Users\Amninder\Downloads\MillionSongSubset\data\A\A\A\TRAAAAW128F429D538.h5"
-csv_file = "msd_subset.csv"
-start_time = time.time()
-create_summary_csv("C:\Users\Amninder\Downloads\MillionSongSubset\data\A",csv_file)
-print "Finished creating csv in %f seconds"%(time.time()-start_time)
