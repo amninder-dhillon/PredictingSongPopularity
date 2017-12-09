@@ -4,5 +4,10 @@ In this project, I will be using machine learning to classify a song as popular 
 ## Getting Started
 In order to run the jupyter notebook, you will need csv file with all the data in it. You can get that file from [here](https://www.dropbox.com/s/hfub80ykvonhecg/msd_summary.csv?dl=0). Place this file in assets directory, then you can run the jupyter notebook. 
 If you just want to look at the results then take a look at the [slides](https://github.com/amninder-dhillon/PredictingSongPopularity/blob/master/assets/Predicting_Song_Popularity.pdf)
+## References
+- Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+The Million Song Dataset. In Proceedings of the 12th International Society
+for Music Information Retrieval Conference (ISMIR 2011), 2011.
+
 
 

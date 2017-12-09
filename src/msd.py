@@ -1,10 +1,9 @@
 import os
 import glob
-import time
 import json
 import numpy as np
 import pandas as pd
-import hdf5_getters 
+import lib.hdf5_getters as hdf5_getters
 
 def get_available_methods():
 	methods = [i for i in dir(hdf5_getters)]

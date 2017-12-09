@@ -1,3 +1,4 @@
-assets/msd_summary.csv
+assets/*.csv
 src/test.py
 src/.ipynb_checkpoints/
+*.pyc
